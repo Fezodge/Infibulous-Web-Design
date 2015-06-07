@@ -1,0 +1,18 @@
+* {
+	font-weight: 300;
+	font-family: "Open Sans";
+}
+
+.title {
+	margin-top: 100px;
+}
+
+.title-header {
+	text-align: center;
+	font-size: 50px;
+}
+
+.title-p {
+	text-align: center;
+	font-size: 26px;
+}
