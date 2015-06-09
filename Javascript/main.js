@@ -1,7 +1,9 @@
 $(document).ready(function() {
 	
-	$('a').on('mouseOver', function() {
-		$(this).hide();
-	});
+    $('button.menu-button').on('click', function() {
+        alert($(this).toString());
+        $(this).hide();
+    });
+});
 	
 });
