@@ -4,7 +4,7 @@
 }
 
 .title {
-	margin-top: 100px;
+	text-align: center;
 }
 
 .title-header {
@@ -46,7 +46,20 @@
 .button-text:hover {
 	color: #dc252a;
 }
+.menu-link {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding-left: 5px;
+	font-size: 18px;
+	width: 0px;
+}
 
-.buttons:hover {
-	color: #dc252a;
+.menu-bar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	background-color: #dc252a;
+	width: 200px;
 }
