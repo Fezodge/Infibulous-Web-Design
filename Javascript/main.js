@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	
-	$('a').on('mouseOver', function() {
+	$('button.test').on('click', function() {
 		$(this).hide();
 	});
 	
